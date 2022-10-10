@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=tr, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>Calculator</title>
+</head>
+<body>
+    <center>
+    <h1 id="heade">Calculator</h1>
+</br>
+
+    <div class="container">
+    <tr>
+        <input type="text" id="inp2" class= "inp" disabled>
+        <input type="text" id="inp" class ="inp" disabled>
+    </tr>
+</br>
+</br>
+    <tr>
+        <td><button class ="btn" onclick="myFunction('7')">7</button></td>
+        <td><button class ="btn" onclick="myFunction('8')">8</button></td>
+        <td><button class="btn" onclick="myFunction('9')">9</button></td>
+        <td><button class="btnr" onclick="myFunction('+')">+</button></td>
+    </tr>
+</br>
+    <tr>
+        <td><button class ="btn" onclick="myFunction('4')">4</button></td>
+        <td><button class="btn" onclick="myFunction('5')">5</button></td>
+        <td><button class="btn" onclick="myFunction('6')">6</button></td>
+        <td><button class="btnr" onclick="myFunction('-')">-</button></td>
+    </tr>
+</br>
+    <tr>
+        <td><button class ="btn" onclick="myFunction('1')">1</button></td>
+        <td><button class="btn" onclick="myFunction('2')">2</button></td>
+        <td><button class="btn" onclick="myFunction('3')">3</button></td>
+        <td><button class="btnr" onclick="myFunction('*')">x</button></td>
+    </tr>
+</br>
+    <tr>
+        <td><button class ="btnr" onclick="reset()">C</button></td>
+        <td><button class="btn" onclick="myFunction('0')">0</button></td>
+        <td><button class="btnr" onclick="myFunction('/')">/</button></td>
+        <td><button class="btnr" onclick="calculation()">=</button></td>
+    </tr>
+    </div>
+</center>
+<script src="main.js"></script>
+</body>
+</html>
